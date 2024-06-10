@@ -14,3 +14,7 @@
 .calculate-form-label{
   @apply font-semibold py-4 text-gray-900
 }
+
+.calculate-form-span{
+    @apply text-red-600
+}
