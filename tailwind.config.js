@@ -3,7 +3,14 @@ export default {
   content: ["./index.html",
     "./src/**/*.{js,ts,jsx,tsx}",],
   theme: {
-    extend: {},
+    extend: {
+      colors:{
+        "background" : "#538392",
+      },
+      fontFamily:{
+        "roboto": "'Roboto', sans-serif",
+      }
+    },
   },
   plugins: [],
 }
